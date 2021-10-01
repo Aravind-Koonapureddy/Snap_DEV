@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <echo file="/home/gaian/Aravind/snapdev/secsnappack/secsnappack/target/classes/build.properties">build_number=9
+                                    snap_pack_version=1
+                                    snap_pack_fqid=secsnappack-snap-1-9.zip
+                                    snap_pack_url=$SNAP_HOME/secsnappack/target/secsnappack-build
+                                    snap_pack_name=${NAME}</echo>
+</target>
+</project>
